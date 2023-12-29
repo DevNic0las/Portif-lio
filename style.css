@@ -1,0 +1,307 @@
+/* Estilos do navbar */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #696666;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+.logo {
+    color: white;
+    margin-left: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #5c5b5b;
+
+
+}
+
+.icons {
+    margin-left: 42%;
+
+    padding: 20px;
+}
+
+.icons i {
+    font-size: 20px;
+    margin-left: 50px;
+    transition: color 0.2s ease;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+
+}
+
+.icons i:hover {
+    color: aqua;
+    transform: scale(0.2);
+}
+
+.container {
+    margin-top: 40%;
+}
+
+.container h5 {
+    margin-left: 42%;
+}
+
+.btn_main {
+    margin-left: 48%;
+    margin-top: 49px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.btn_main a {
+    border: 2px solid;
+    padding: 20px;
+    transition: transform 2s ease;
+    transition: background-color 0.5s ease-in;
+    display: inline-block;
+}
+
+.btn_main a:hover {
+    transform: scale(1.1);
+    border-color: rgb(255, 0, 234);
+    background-color: rgb(44, 42, 42);
+    background-color: #333;
+}
+
+#sobre {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.intra-information img {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    margin: .9rem 0 0 0;
+
+
+}
+
+.intra-information p {
+    float: right;
+    margin-left: 240px;
+    font-family: "lora-regular", serif;
+    font-size: 2rem;
+    line-height: 1.8;
+    color: #888888;
+}
+
+.intra-information {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.titles-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.titles-section h2 {
+    margin-top: 250px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.profile .sei-la p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: "lora-regular", serif;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-top: 50px;
+}
+
+/*projetos */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.card-container {
+    flex: 11 calc(33.333% -1rem);
+    overflow: hidden;
+}
+
+/*Especialização*/
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    padding: 60px;
+    margin: 150px 0;
+
+
+}
+
+.cards-container i{
+    font-size: 70px;
+    margin: 7px 80px;
+
+}
+.cards-container p{
+    font-size: 30px;
+}
+
+.cards-container div {
+
+    padding: 40px;
+    margin-top: 40px;
+    transition: .2s;
+display: flex;
+flex-direction: column;
+}
+
+.cards-container div:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(250, 245, 245);
+}
+
+.cards-container strong{
+    font-size: 29px;
+  margin: 0 50px;
+
+
+}
+
+/*Especialização*/
+
+.form-group input {
+    width: 20%;
+    margin-left: 40%;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.form-group label {
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+form h1 {
+
+    margin-left: 40%;
+}
+
+form {
+    margin-top: 15%;
+    background: #5c5b5b;
+    border-radius: 20px;
+
+}
+
+.botao-form {
+    display: flex;
+    justify-content: center;
+}
+
+/*local, telefone, email*/
+.container_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 120px 0;
+}
+
+.container_info div {
+    border: 1px 1px 1px 1px solid;
+    align-items: center;
+}
+
+.container_info i {
+    font-size: 50px;
+    margin: 80px;
+}
+.container_info h3 {
+font-size: 40px;
+margin: 0 60px;
+}
+.container_info p{
+    font-size: 25px;
+    margin: 0;
+
+}
