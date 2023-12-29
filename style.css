@@ -11,9 +11,7 @@ body {
     scroll-behavior: smooth;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 nav {
     background-color: #333;
@@ -303,5 +301,41 @@ margin: 0 60px;
 .container_info p{
     font-size: 25px;
     margin: 0;
+
+}
+footer p{
+font-size: 15px;
+
+}
+.icons_rodape{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+.icons_rodape a{
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+.icons_rodape i{
+    font-size: 20px;
+    margin-left: 50px;
+    transition: color 0.2s ease;
+
+}
+.icons_rodape i:hover{
+    color: aqua;
+    transform: scale(0.2);
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:  0;
+}
+.progress{
+    width: 100px;
+ height: 10px;
 
 }
