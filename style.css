@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #696666;
+
     scroll-behavior: smooth;
 }
 
@@ -20,6 +20,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    width: 100%;
 }
 header {
     position: fixed;
@@ -60,7 +61,7 @@ nav ul li a:hover {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #5c5b5b;
+    
 
 
 }
@@ -124,6 +125,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
 }
 
 .intra-information img {
@@ -164,7 +166,7 @@ nav ul li a:hover {
     align-items: center;
     margin: 50px;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 400px;
 }
 
 .titles-section h2 {
@@ -176,6 +178,7 @@ nav ul li a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 60px 0;
 }
 
 .profile .sei-la p {
@@ -195,6 +198,7 @@ nav ul li a:hover {
     gap: 1rem;
     border: 1px solid black;
     justify-content: space-between;
+    margin: 200px 0;
 }
 
 .card-container {
@@ -251,6 +255,7 @@ flex-direction: column;
     margin-left: 40%;
     padding: 20px;
     margin-top: 30px;
+    background-color: #333;
 }
 
 .form-group label {
@@ -265,7 +270,7 @@ form h1 {
 
 form {
     margin-top: 15%;
-    background: #5c5b5b;
+
     border-radius: 20px;
 
 }
@@ -332,10 +337,11 @@ flex-direction: row;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin:  0;
+    margin:  5px 0;
 }
 .progress{
-    width: 100px;
- height: 10px;
+    width: 20rem;
+ height: 0.8rem;
+ margin: 10px 0;
 
 }
